@@ -5,13 +5,93 @@
   <link rel="stylesheet" href="screenshot.css">
   <script src="screenshot.js"></script>
   <title>Dijital şiddet</title>
+  <!--BootStrap -->
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <!--BootStrap -->
 </head>
 
 <body>
 
+<header class="masthead bg-primary text-white text-center">
+  <div class="container d-flex align-items-center flex-column">
+
+    <h1 class="masthead-heading text-uppercase mb-0">Diijital Şiddet İle Mücadele</h1>
+
+    <div class="divider-custom divider-light">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+      <div class="divider-custom-line"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="screenshot">
+          <h2>Ekran Görüntüsü</h2>
+          <p>
+            <img id="target" src="white.png" height="50%" width="100%">
+          <p>
+          <p><b>Kaynak Url: </b><a id="url"></a></p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <form>
+          <h2>Form Bilgileri</h2>
+          <div class="form-group">
+            <input type="text" name="name_surname" class="form-control" aria-describedby="adHelp" placeholder="Ad Soyad" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" class="form-control" aria-describedby="emailHelp" placeholder="email" required>
+          </div>
+          <div class="form-group">
+            <input type="text" name="subject" class="form-control" aria-describedby="subjectHelp" placeholder="Konu" required>
+          </div>
+          <div class="form-group">
+            <textarea type="message" class="form-control" aria-describedby="messageHelp" placeholder="Mesaj"rows="3" required></textarea>
+          </div>
+          <!--button type="submit" id="submit" class="btn btn-danger">Gönder</button-->
+          <input type="submit" id="submit" value="Gönder" />
+        </form>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+<footer class="footer text-center">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-5 mb-5 mb-lg-0">
+        <p class="lead mb-0">
+          Dijital Şiddet ile Mücadele Projesi; Toplumsal Bilgi ve İletişim Derneği (TBİD) tarafından, Birleşmiş Milletler Nüfus Fonu (UNFPA) Türkiye'nin desteği ile yürütülmektedir.
+        </p>
+      </div>
+
+      <div class="col-lg-4">
+        <p class="lead mb-0">
+          <img class="masthead-avatar mb-5" src="images/unfpa.svg" alt="" >
+        </p>
+        <p class="lead mb-0">
+          <img class="masthead-avatar mb-5" src="images/tbit.png" alt="" style="margin-top: -100px;"max-height=%50>
+        </p>
+      </div>
+
+      <div class="col-lg-3 mb-5 mb-lg-0">
+        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/dijitalsiddet"><i class="fab fa-fw fa-twitter"></i></a>
+        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/dijitalsiddet/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!--
   <div class="digital-violence">
     <div class="screenshot">
-      <h2>Ekran Görüntüsü</h2>
+      <h2>Ekrans Görüntüsü</h2>
       <p>
         <img id="target" src="white.png" height="50%" width="50%">
       <p>
@@ -23,8 +103,8 @@
       <form class="form-style-9">
         <ul>
           <li>
-            <input type="text" name="name_surname" class="field-style field-split align-left" placeholder="Ad Soyad" />
-            <input type="email" name="email" class="field-style field-split align-right" placeholder="Email" />
+            <input type="text" name="name_surname" class="fiel d-style field-split align-left" placeholder="Ad Soyad" />
+            <input type="email" name="name_surname" class="field-style field-split align-right" placeholder="Email" />
           </li>
 
           <li>
@@ -41,7 +121,15 @@
       </form>
     </div>
   </div>
-
+-->
+  <!--BootStrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="assets/mail/jqBootstrapValidation.js"></script>
+  <script src="assets/mail/contact_me.js"></script>
+  <script src="js/scripts.js"></script>
+  <!--BootStrap -->
 </body>
 
 </html>
